@@ -1,0 +1,8 @@
+.error500Header,.error500 a{
+    text-align: center;
+}
+.error500{
+    position: absolute;
+    left: 50%;top: 50%;
+    transform: translate(-50%,-50%);
+}

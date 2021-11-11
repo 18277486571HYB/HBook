@@ -1,0 +1,34 @@
+body{
+    background-image: url("../img/LoginGirl.jpg");
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+#h1{
+    font-size: 22px;
+    text-align:center ;
+}
+#lr{
+    width: 400px;
+    height: 200px;
+    background-color: rgba(0,0,0,0.05);
+    position: absolute;
+    left: 50%;top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+table{
+    margin: 0 auto;
+}
+
+*{
+    margin: 0;/*所有的外边距为0*/
+    padding: 0;/*所有的内边距为0*/
+    box-sizing: border-box;/*规定两个并排的带边框的框*/
+}
+
+#alert{
+    text-align: center;
+    color: red;
+}
